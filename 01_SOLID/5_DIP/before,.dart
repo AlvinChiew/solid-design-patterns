@@ -8,6 +8,10 @@ class MySqlDatabase {
   void saveUser(User user) {}
 }
 
+class PostgresDatabase {
+  void saveUser(User user) {}
+}
+
 class UserService {
   MySqlDatabase database;
 
